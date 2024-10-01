@@ -53,7 +53,7 @@
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                     <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        <a class="nav-link active text-warning" aria-current="page" href="#">HOME</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">ABOUT</a>
@@ -383,11 +383,56 @@
             </div>
         </div>
     </section>
+    <section>
+        <div class="row">
+            <!--------------la parti de la vidéo---------->
+            <div class="col-lg-6">
+
+            </div>
+            <!----------la parti du fomulaire-------->
+           
+    <div class="col-lg-6 bg-dark ">
+        <div class="container">
+    <form>
+        <fieldset disabled><h2 class="police-pacifico h5 me-2 pt-5 mb-3 text-warning">Réservation<span class="h3"><i
+            class="fa fa-minus text-warning"></i></span></h2>
+<h1 class="fw-bold taille mb-4 police-numito text-light">Réserver une table en ligne</h1>
+      <div class="row">
+          <div class=" col-sm-6 mb-3">
+            <input type="text" id="yourname" class="form-control" placeholder="Your Name">
+          </div>
+          <div class=" col-sm-6 mb-3">
+            <input type="text" id="yourmail" class="form-control" placeholder="Your Email">
+          </div>
+          <div class="row">
+          <div class=" col-sm-6 mb-3">
+            <select id="disabledSelect" class="form-select">
+              <option>Niveau 1</option>
+              <option>Niveau 2</option>
+              <option>Niveau 3</option>
+              <option>Niveau 4</option>
+            </select>
+          </div>
+          <div class=" col-sm-6 mb-3 bg-light">
+
+            <input type="text" id="date&time"  placeholder="Date & Time">
+          </div>
+        </div>
+        </div>
+          <div class="mb-">
+            <textarea type="text" class="form-control mb-4" id="demande spécial" rows="3" placeholder="Demande spécial "></textarea>
+          <button type="submit" class="btn bg-warning  mb-5">RESERVEZ MAINTENANT</button>
+        </fieldset>
+      </form>
+      </div>
+    </div>
+    </div>
+    </section>
 
     <section class="container py-5">
         <div class="text-warning d-flex justify-content-center align-items-center">
             <span class="h3"><i class="fa fa-minus"></i></span>
-            <p class="h3 fw-bold police-pacifico me -2 mx-2 pt-0">Team members</p>
+            <p class="h5 police-pacifico me -2 mx-2 pt-0">Team members</p>
             <span class="h3"><i class="fa fa-minus"></i></span>
         </div>
         <h2 class="fw-bold h1 mb-5 police-numito text-center">Our Master Chefs</h2>
@@ -433,7 +478,7 @@
                         <div class="image mb-2">
                             <img src="./images/team-2.jpg" class="img-fluid hover-image" alt="">
                         </div>
-                        <!--Le" texte-->
+                        <!--Le texte-->
                         <div class="texte">
                             <h2 class="police-nunito fw-bold">Herbe Jean</h2>
                             <p>Chef cuisinié</p>
@@ -528,7 +573,7 @@
     <section class="container mb-5">
         <div class="text-warning d-flex justify-content-center align-items-center">
             <span class="h3"><i class="fa fa-minus"></i></span>
-            <p class="h3 fw-bold police-pacifico me -2 mx-2 pt-0">Testimonial</p>
+            <p class="h5 police-pacifico me -2 mx-2 pt-0">Testimonial</p>
             <span class="h3"><i class="fa fa-minus"></i></span>
         </div>
         <h2 class="fw-bold h1 mb-5 police-numito text-center">Our Clients Say!!!</h2>
@@ -537,16 +582,17 @@
             <div class="col-sm-4  mb-3 mb-sm-0 ">
                 <div class="card touche">
 
-                    <div class="card-body">
-                        <i class="fa fa-quote-left fa-2x text-success mb-4 pt-4"></i>
-                        <p class="card-text text-secondary">Diam elitr kasd sed at elitr sed ipsum justo dolor sed
+                    <div class="card-body mx-2">
+                        <i class="fa fa-quote-left fa-2x  mb-3 pt-2"></i>
+                        <h5 class="card-title fw-bold mb-2 ">Quality Food</h5>
+                        <p class="card-text ">Diam elitr kasd sed at elitr sed ipsum justo dolor sed
                             clita amet diam.</p>
                         <div class="col-sm-6">
-                            <div class="d-flex align-items-center  px-3 mb-4">
-                                <img src="./images/testimonial-3.jpg" class="flex-shrink-0 display-5 text-success mb-0"
+                            <div class="d-flex align-items-center ">
+                                <img src="./images/testimonial-3.jpg" class="flex-shrink-0 display-5 text-success mb-0 img-fluid rong-image"
                                     data-toggle="counter-up" alt="">
-                                <div class="ps-4">
-                                    <p class="mb-0 text-secondary">Client Name</p>
+                                <div class="ps-3">
+                                    <p class="mb-0">Client Name</p>
                                     <h6 class="text-uppercase mb-0">Profession</h6>
                                 </div>
 
@@ -558,21 +604,43 @@
             </div>
             <div class="col-sm-4  mb-3 mb-sm-0 ">
                 <div class="card touche">
-                    <div class="card-body">
-                        <i class="fa fa-quote-left fa-2x text-success mb-4 pt-4"></i>
-                        <h5 class="card-title fw-bold mb-3">Quality Food</h5>
-                        <p class="card-text text-secondary">Diam elitr kasd sed at elitr sed ipsum justo dolor sed
+                    <div class="card-body mx-2">
+                        <i class="fa fa-quote-left fa-2x mb-3 pt-2"></i>
+                        <h5 class="card-title fw-bold mb-2">Quality Food</h5>
+                        <p class="card-text ">Diam elitr kasd sed at elitr sed ipsum justo dolor sed
                             clita amet diam.</p>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center ">
+                                    <img src="./images/testimonial-1.jpg" class="flex-shrink-0 display-5 text-success mb-0 img-fluid rong-image"
+                                        data-toggle="counter-up" alt="">
+                                    <div class="ps-2">
+                                        <p class="mb-0 ">Client Name</p>
+                                        <h6 class="text-uppercase mb-0">Profession</h6>
+                                    </div>
+    
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4  mb-3 mb-sm-0">
                 <div class="card touche  ">
-                    <div class="card-body  ">
-                        <i class="fa fa-quote-left fa-2x text-success mb-4 pt-4"></i>
-                        <h5 class="card-title fw-bold mb-3">Online Order</h5>
-                        <p class="card-text text-secondary">Diam elitr kasd sed at elitr sed ipsum justo dolor sed
+                    <div class="card-body mx-2 ">
+                        <i class="fa fa-quote-left fa-2x  mb-3 pt-2 "></i>
+                        <h5 class="card-title fw-bold mb-2">Online Order</h5>
+                        <p class="card-text ">Diam elitr kasd sed at elitr sed ipsum justo dolor sed
                             clita amet diam.</p>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center ">
+                                    <img src="./images/testimonial-4.jpg" class="flex-shrink-0 display-5 text-success mb-0 img-fluid rong-image"
+                                        data-toggle="counter-up" alt="">
+                                    <div class="ps-2">
+                                        <p class="mb-0 ">Client Name</p>
+                                        <h6 class="text-uppercase mb-0">Profession</h6>
+                                    </div>
+    
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -591,9 +659,9 @@
 
 
 
-
+    <iframe width="683" height="384" src="https://www.youtube.com/embed/3O-HdPqqK4A" title="3 Ingrédients Seulement Pour Un Repas Pas Cher et Savoureux !" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="stri ct-origin-when-cross-origin" allowfullscreen></iframe>
 
     <script src="vendors/bootstrap/js/bootstrap.js"></script>
 </body>
 
-</html>
+</html
