@@ -2,89 +2,271 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma page </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ma page </title>
 
-    <!------------lien pour les font family------------->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
-    <!-----------------lien pour les icones-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!------------lien pour les font family------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <!-----------------lien pour les icones-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="./vendors/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="./vendors/bootstrap/css/bootstrap.css" />
 
-    <link rel="stylesheet" href="./css/style1.css" />
+  <link rel="stylesheet" href="./css/style1.css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <img src="./images/logo.svg" alt="">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item ">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+  <section class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-4 bg-light">
+      <div class="container-fluid">
+        <a class="logo me-4" href="#">
+          <img src="./images/logo.svg" class="img-fluid" width="150" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                listings
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Accounts
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled fw-bold" aria-disabled="true">Disabled</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="index.html">RESTAURANT</a>
+          </li>
+          </ul>
+        </div>
+        <div class="">
+
+          <a class="nav-notification btn btn-light p-1.5 mb-0 show me-3" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="true" data-bs-auto-close="outside">
+            <i class="fas fa-bell h4"></i>
+          </a>
+
+          <a href="#"><img class="avatar-img rounded-2 " src="/images/01.jpg" alt="avatar" width="50"></a>
+        </div>
+
+      </div>
+    </nav>
+  </section>
+
+  <!------------section hero----------->
+  <section class="mb-5">
+    <div class="container">
+      <div class="hero">
+        <div class="hero-text pt-5 px-5">
+          <h1 class="text-light  police-poppins">Life Is Adventure Make<br />The Best Of It</h1>
+          <p class="text-light">Planning for a trip? we will organize your best trip with the best destination<br />and
+            within the best budgets!</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pt-0 pt-md-5 mb-5">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-12 text-center">
+          <h2 class="mb-0 police-poppins fw-bold h1">Our Best Packages</h2>
+        </div>
+      </div>
+  
+      <div class="row g-4">
+        <!-- ----------item -------------->
+        <div class="col-sm-6 col-xl-3">
+          <!--------debut card------------->
+          <div class="card card-img-scale overflow-hidden bg-transparent">
+            <div class="card-img-scale-wrapper rounded-3">
+              <img src="./images/04.jpg" class="card-img touche.image"  alt="">
+              <div class="card-img-overlay d-flex flex-column z-index-1 p-4">
+                <!-- la parti aventure et etoile-->
+                <div class="d-flex justify-content-between">
+                  <span class="badge text-bg-dark">Adventure</span>
+                  <span class="badge text-bg-white"><i class="fa-solid fa-star text-warning me-2"></i>4.3</span>
+                </div>
+                <!-- Card overlay la parti  days-->
+                <div class="w-100 mt-auto">
+                  <span class="badge text-bg-white fs-6 days">6 days / 5 nights</span>
+                </div>
+              </div>
+            </div> 
+            
+            <!-- Card body -->
+            <div class="card-body px-2">
+              <!-- Title -->
+              <h5 class="card-title"><a href="#" class="stretched-link  police-poppins touche">Lombok, Indonesia</a></h5>
+              <!-- Content -->
+              <div class="hstack gap-2">
+                <span class="h5 mb-0 text-success ">$1385</span>
+                <small>Starting price</small>
+              </div>
+            </div>
+          </div>
+          <!-- fin card -->
+        </div>
+  
+        <!-- Package item -->
+        <div class="col-sm-6 col-xl-3">
+          <!-- Card START -->
+          <div class="card card-img-scale overflow-hidden bg-transparent">
+            <div class="card-img-scale-wrapper rounded-3">
+              <!-- Card Image -->
+              <img src="./images/02.jpg" class="card-img" alt="">
+              <!-- Overlay -->
+              <div class="card-img-overlay d-flex flex-column z-index-1 p-4">
+                <!-- Card overlay top -->
+                <div class="d-flex justify-content-between">
+                  <span class="badge text-bg-dark">History</span>
+                  <span class="badge text-bg-white"><i class="fa-solid fa-star text-warning me-2"></i>4.5</span>
+                </div>
+                <!-- Card overlay bottom -->
+                <div class="w-100 mt-auto">
+                  <!-- Card category -->
+                  <span class="badge text-bg-white fs-6 days">8 days / 7 nights</span>
+                </div>
+              </div>
+            </div> 
+            
+            <!-- Card body -->
+            <div class="card-body px-2">
+              <!-- Title -->
+              <h5 class="card-title"><a href="#" class="stretched-link  police-poppins touche">Northern Lights Escape</a></h5>
+              <!-- Content -->
+              <div class="hstack gap-2">
+                <span class="h5 mb-0 text-success">$2569</span>
+                <small>Starting price</small>
+              </div>
+            </div>
+          </div>
+          <!-- Card END -->
+        </div>
+  
+        <!-- Package item -->
+        <div class="col-sm-6 col-xl-3">
+          <div class="card card-img-scale overflow-hidden bg-transparent">
+            <div class="card-img-scale-wrapper rounded-3">
+              <!-- Card Image -->
+              <img src="./images/03.jpg" class="card-img touche" alt="">
+              <!-- Overlay -->
+              <div class="card-img-overlay d-flex flex-column z-index-1 p-4">
+                <!-- Card overlay top -->
+                <div class="d-flex justify-content-between">
+                  <span class="badge text-bg-dark">Desert</span>
+                  <span class="badge text-bg-white"><i class="fa-solid fa-star text-warning me-2"></i>4.2</span>
+                </div>
+                <!-- Card overlay bottom -->
+                <div class="w-100 mt-auto">
+                  <!-- Card category -->
+                  <span class="badge text-bg-white fs-6 days">9 days / 8 nights</span>
+                </div>
+              </div>
+            </div> 
+            
+            <!-- Card body -->
+            <div class="card-body px-2">
+              <!-- Title -->
+              <h5 class="card-title"><a href="#" class="stretched-link  police-poppins touche">Essential Egypt</a></h5>
+              <!-- Content -->
+              <div class="hstack gap-2">
+                <span class="h5 mb-0 text-success">$1885</span>
+                <small>Starting price</small>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
+  
+        <!-- Package item -->
+        <div class="col-sm-6 col-xl-3">
+          <div class="card card-img-scale overflow-hidden bg-transparent">
+            <div class="card-img-scale-wrapper rounded-3">
+              <!-- Card Image -->
+              <img src="./images/01 (1).jpg" class="card-img" alt="">
+              <!-- Overlay -->
+              <div class="card-img-overlay d-flex flex-column z-index-1 p-4">
+                <!-- Card overlay top -->
+                <div class="d-flex justify-content-between">
+                  <span class="badge text-bg-dark">Beach</span>
+                  <span class="badge text-bg-white"><i class="fa-solid fa-star text-warning me-2"></i>4.6</span>
+                </div>
+                <!-- Card overlay bottom -->
+                <div class="w-100 mt-auto">
+                  <!-- Card category -->
+                  <span class="badge text-bg-white fs-6 days">9 days / 8 nights</span>
+                </div>
+              </div>
+            </div> 
+            
+            <!-- Card body -->
+            <div class="card-body px-2">
+              <!-- Title -->
+              <h5 class="card-title"><a href="#" class="stretched-link  police-poppins touche">Phi Phi Islands</a></h5>
+              <!-- Content -->
+              <div class="hstack gap-2">
+                <span class="h5 text-success mb-0">$3585</span>
+                <small>Starting price</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- Row END -->
+    </div>
+  </section>
+
+  <section class=" mb-5">
+    <div class="container text-center align-items-center second">
+    <h1>Subscribe And Get a <br/> Special Discount</h1>
+    <p>Speedily say has suitable disposal add boy. On forth doubt miles of child. <br/> Exercise joy man children rejoiced.
+    </p>
+  </div>
+  </section>
 
 
 
-
-   <script src="./vendors/bootstrap/js/bootstrap.js"></script> 
+  <script src="./vendors/bootstrap/js/bootstrap.js"></script>
 </body>
+
 </html>
