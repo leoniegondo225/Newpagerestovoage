@@ -34,7 +34,7 @@ body {
     transition: background-color 0.3s ease;
     color: #fff;
 }
-
+  
 .touche:hover i {
     color: #fff;
 }
@@ -82,9 +82,20 @@ body {
     border-radius: 50%;
 }
 
-.hauteur{
-    width: 500px;
-    height: 500px;
+.vidéo{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/imgv.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: center;
+    padding: 250px 0 0 0;
+}
+
+.rond-btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0;
+    background-color:#101120be;
 }
 
 footer {

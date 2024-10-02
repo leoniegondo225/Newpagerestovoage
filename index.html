@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ma page </title>
 
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./images/hero.png" type="image/x-icon">
+
     <!------------lien pour les font family------------->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -386,53 +389,55 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="row">
+    <section class="mb-5">
+        <div class="row align-item-center">
             <!--------------la parti de la vidéo---------->
-            <div class="col-lg-6">
-                <div class="vidéo">
-                    <button type="button" class="btn-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        <img src="./images/imgv.jpeg" alt="" class="img-fluid hauteur" > 
-                    
-                </div>
+            <div class="col-lg-6 vidéo reservation align-item-center text-center justify-content-center">
+                <button class="bg-warning rond-btn"><i class="fa fa-play fa-3x text-warning mb-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"></i></button>
+
+
+
             </div>
             <!----------la parti du fomulaire-------->
 
             <div class="col-lg-6 bg-dark ">
                 <div class="container">
-                    <form>
-                        <fieldset disabled>
-                            <h2 class="police-pacifico h5 me-2 pt-5 mb-3 text-warning">Réservation<span class="h3"><i
-                                        class="fa fa-minus text-warning"></i></span></h2>
-                            <h1 class="fw-bold taille mb-4 police-numito text-light">Réserver une table en ligne</h1>
-                            <div class="row">
-                                <div class=" col-sm-6 mb-3">
-                                    <input type="text" id="yourname" class="form-control" placeholder="Your Name">
-                                </div>
-                                <div class=" col-sm-6 mb-3">
-                                    <input type="text" id="yourmail" class="form-control" placeholder="Your Email">
-                                </div>
-                                <div class="row">
-                                    <div class=" col-sm-6 mb-3">
-                                        <select id="disabledSelect" class="form-select">
-                                            <option>Niveau 1</option>
-                                            <option>Niveau 2</option>
-                                            <option>Niveau 3</option>
-                                            <option>Niveau 4</option>
-                                        </select>
-                                    </div>
-                                    <div class=" col-sm-6 mb-3">
 
-                                        <input type="text" id="date&time" class="form-control" placeholder="Date & Time">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-">
-                                <textarea type="text" class="form-control mb-4" id="demande spécial" rows="3"
-                                    placeholder="Demande spécial "></textarea>
-                                <button type="submit" class="btn bg-warning  mb-5">RESERVEZ MAINTENANT</button>
-                        </fieldset>
+
+                    <h2 class="police-pacifico h5 me-2 pt-5 mb-3 text-warning">Réservation<span class="h3"><i
+                                class="fa fa-minus text-warning"></i></span></h2>
+                    <h1 class="fw-bold taille mb-4 police-numito text-light">Réserver une table en ligne</h1>
+                    <form action="" class="row">
+                        <div class="col-lg-6 mb-3">
+                            <input type="text" class="form-control rounded-0" placeholder="Saisir votre nom" name=""
+                                id="">
+                        </div>
+                        <div class="col-lg-6 mb-3">
+                            <input type="text" class="form-control rounded-0" placeholder="Saisir votre email" name=""
+                                id="">
+                        </div>
+                        <div class="col-lg-6 mb-3">
+                            <input type="date" class="form-control rounded-0" name="" id="">
+                        </div>
+                        <div class="col-lg-6 mb-3">
+                            <select name="" id="" class="form-select rounded-0">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-12 mb-3">
+                            <textarea placeholder="Votre commande" name="" id="" rows="3"
+                                class="form-control rounded-0"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning rounded-0 btn-lg mb-3">Reservez maintenant</button>
                     </form>
+
+
+
                 </div>
             </div>
         </div>
