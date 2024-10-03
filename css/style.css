@@ -87,12 +87,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: center;
-    padding: 250px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .rond-btn {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     border: 0;
     background-color:#101120be;
