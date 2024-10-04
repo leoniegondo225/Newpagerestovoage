@@ -390,58 +390,72 @@
         </div>
     </section>
     <section class="mb-5">
-        <div class="row align-item-center">
+        <div class="d-flex-perso">
             <!--------------la parti de la vidéo---------->
-            
-            <div class="col-lg-6 vidéo reservation align-item-center text-center justify-content-center">
-                <button class="btn bg-warning rond-btn"><i class="fa fa-play fa-3x text-dark mb-3" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal"></i></button>
+
+            <div class="vidéo reservation ">
+                <button class="btn bg-warning rond-btn"><i class="fa fa-play fa-3x text-dark mb-3 pt-2"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal"></i></button>
 
 
 
             </div>
             <!----------la parti du fomulaire-------->
 
-            <div class="col-lg-6 bg-dark ">
+            <div class=" bg-dark mx-4">
                 <div class="container">
 
 
                     <h2 class="police-pacifico h5 me-2 pt-5 mb-3 text-warning">Réservation<span class="h3"><i
                                 class="fa fa-minus text-warning"></i></span></h2>
                     <h1 class="fw-bold taille mb-4 police-numito text-light">Réserver une table en ligne</h1>
-                    <form action="" class="row">
+                    <div class="row">
                         <div class="col-lg-6 mb-3">
-                            <input type="text" class="form-control rounded-0" placeholder="Saisir votre nom" name=""
-                                id="">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control rounded-0" placeholder="Saisir votre nom" name=""
+                                    id="floatingInput">
+                                <label for="floatingInput">Votre nom</label>
+                            </div>
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <input type="text" class="form-control rounded-0" placeholder="Saisir votre email" name=""
-                                id="">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control rounded-0" placeholder="Saisir votre email"
+                                    name="" id="floatingInput">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <input type="date" class="form-control rounded-0" name="" id="">
+                            <div class="form-floating mb-3">
+                                <input type="date" class="form-control rounded-0" name="" id="floatingInput">
+                                <label for="floatingInput">Date de reservation</label>
+                            </div>
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <select name="" id="" class="form-select rounded-0">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                            </select>
+                            <div class="form-floating mb-3">
+                                <select name="" id="floatingselect" class="form-select rounded-0">
+                                    <option value="niveau 1">Niveau 1</option>
+                                    <option value="niveau 2">Niveau 2</option>
+                                    <option value="niveau 3">Niveau 3</option>
+                                    <option value="niveau 4">Niveau 4</option>
+                                    <option value="niveau 5">Niveau 5</option>
+                                </select>
+                            </div>
                         </div>
                         <div class="col-lg-12 mb-3">
-                            <textarea placeholder="Votre commande" name="" id="" rows="3"
+                            <textarea placeholder="Votre commande" name="" id="floatingtextarea" rows="3"
                                 class="form-control rounded-0"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-warning rounded-0 btn-lg mb-3">Reservez maintenant</button>
-                    </form>
+                        <div class="col-lg-12-mb-3">
+                            <input type="submit" class="form-control btn btn-warning rounded-0 mb-3">Reservez
+                            maintenant</button>
+                        </div>
 
 
 
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <section class="container py-5">

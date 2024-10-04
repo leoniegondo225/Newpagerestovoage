@@ -29,9 +29,9 @@
 
 <body>
   <section class="container">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary py-4 bg-light">
+    <nav class="navbar navbar-expand-lg  py-4 ">
       <div class="container-fluid">
-        <a class="logo me-4" href="#">
+        <a class="logo me-3" href="#">
           <img src="./images/logo.svg" class="img-fluid" width="150" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -73,48 +73,53 @@
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link disabled fw-bold" aria-disabled="true">Disabled</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-bold" href="index.html">RESTAURANT</a>
+              <a class="nav-link fw-bold text-primary" href="index.html">Restaurant</a>
             </li>
           </ul>
         </div>
         <div class="">
+          <a href="#" class=" text-decoration-none btn"><i class="fa fa-hotel   mx-2 me-2"></i>Hotel</a>
+          <a href="#" class=" text-decoration-none btn "><i class="fa fa-plane  mx-2 me-2 "></i>Vole</a>
+          <button class="btn-bg-text-primary rounded-3 border-0 py-2"> <a href="#"
+              class="text-primary text-decoration-none p-2"><i class="fa fa-globe-africa  me-2"></i>Monde</a></button>
+          <a href="#" class=" text-decoration-none  btn "><i class="fa fa-car  mx-2 me-2"></i>Vehicule</a>
 
-          <a class="nav-notification btn btn-light p-1.5 mb-0 show me-3" href="#" role="button"
+
+          <a class="nav-notification btn btn-light p-1.5 mb-0 show me-2 " href="#" role="button"
             data-bs-toggle="dropdown" aria-expanded="true" data-bs-auto-close="outside">
-            <i class="fas fa-bell h4"></i>
+            <i class="far fa-bell "></i>
           </a>
 
-          <a href="#"><img class="avatar-img rounded-2 " src="/images/01.jpg" alt="avatar" width="50"></a>
-        </div>
+          <a href="#"><img class="avatar-img rounded-2 " src="/images/01.jpg" alt="avatar" width="40"></a>
 
+        </div>
       </div>
     </nav>
   </section>
 
   <!------------section hero----------->
-  <section class="mb-5">
+  <section>
     <div class="container">
-      <div class="hero rounded-2 px-5 pt-5">
-        <div class="row justify-content-between pt-0 pb-5"> 
-          <div class="col-md-7 col-lg-8 col-xxl-7 pb-5 mb-0 mb-lg-5"> 
+      <div class="hero rounded-2 px-5 pt-5 ">
+        <div class="row justify-content-between pt-0 pb-5">
+          <div class="col-md-7 col-lg-8 col-xxl-7 pb-5 mb-0 mb-lg-5">
             <h1 class="text-white">Life Is Adventure Make The Best Of It</h1>
-            <p class="text-white mb-0">Planning for a trip? we will organize your best trip with the best destination and within the best budgets!</p>
+            <p class="text-white mb-0">Planning for a trip? we will organize your best trip with the best destination
+              and within the best budgets!</p>
           </div>
-  
+
           <!-- Produce item START -->
           <div class="col-md-5 col-lg-4 col-xl-3 mb-3 mb-sm-0">
             <div class="card shadow p-2 pb-0">
-  
+
               <div class="rounded-3 overflow-hidden position-relative">
                 <!-- Image -->
                 <img src="./images/05.jpg" class="card-img" alt="">
                 <!-- Overlay -->
                 <div class="bg-overlay bg-dark opacity-4"></div>
-                
+
                 <!-- Hover element -->
                 <div class="card-img-overlay d-flex">
                   <h6 class="text-white fw-normal mt-auto mb-0">5 Days / 4 Nights</h6>
@@ -128,26 +133,58 @@
                   <!-- Rating -->
                   <h6 class="fw-light m-0"><i class="fa-solid fa-star text-warning me-2"></i>4.5</h6>
                 </div>
-  
+
                 <!-- Title -->
-                <h6 class="card-title"><a href="#">Maldives Sightseeing &amp; Adventure Tour</a></h6>
-                
+                <h6 class="card-title fw-bold police-poppins"><a href="#" class="touche">Maldives Sightseeing &amp;
+                    Adventure Tour</a></h6>
+
                 <!-- Badge and Price -->
                 <div class="d-flex justify-content-between align-items-center mb-0">
                   <!-- Price -->
-                  <h6 class="text-success mb-0">$385 <span class="fw-light">/person</span></h6>
-                  <span class="text-decoration-line-through mb-0 text-reset">$682</span>
+                  <h6 class="text-success mb-0 police-poppins fw-bold">$385 <span
+                      class="fw-light police-poppins">/person</span></h6>
+                  <span class="text-decoration-line-through mb-0 text-reset ">$682</span>
                 </div>
               </div>
             </div>
           </div>
           <!-- Produce item END -->
         </div>
-        </div>
+      </div>
     </div>
   </section>
-  
 
+  <!----------section form en bas de hero------------>
+  <section class="container">
+    <div class="row ">
+      <div class="col-12 d-flex justify-content-center ">
+        <form class="bg-body shadow rounded-2 p-5">
+          <div class="input-group ">
+            <div class="row ">
+              <div class="col-lg-3">
+                <h5><i class="fa fa-map-marker-alt text-primary me-2"></i>Location</h5>
+                <input type="text" class="form-select mx-2 me-2 marge" name="location" placeholder="select location" id="" />
+              </div>
+              <div class="col-lg-3">
+                <h5><i class="fa fa-calendar text-primary me-2 "></i>Date</h5>
+                <input type="date" class="form-control mx-2 me-2 marge" name="date" id="" placeholder="Choose a date" />
+              </div>
+              <div class="col-lg-3 ">
+                <h5><i class="fa fa-running text-primary me-2"></i>Tour type</h5>
+                <input class="form-select mx-2 me-5 marge" type="text" name="text" placeholder="selcet tour" />
+              </div>
+              <div class="col-lg-3">
+                <button type="button" class="btn bg-dark rounded-4 mb-0 p-3 mt-4"><a href="#" class="p-4 text-decoration-none text-light">Take a tour</a></button>
+              </div>
+            </div>
+          </div>
+      </div>
+      </form>
+    </div>
+    </div>
+  </section>
+
+  <!-------------section les card touristique-------------->
   <section class="pt-0 pt-md-5 mb-5">
     <div class="container">
       <div class="row mb-4">
@@ -301,15 +338,17 @@
       <h1 class="fw-bold police-poppins h1 py-4">Subscribe And Get a <br /> Special Discount</h1>
       <p>Speedily say has suitable disposal add boy. On forth doubt miles of child. <br /> Exercise joy man children
         rejoiced.
-      </p> 
-       <div class="row justify-content-center">
-      <form class="bg-body shadow rounded-2 p-2">
-        <div class="input-group ">
-          <input class="form-control border-0 me-1" type="email" placeholder="Enter your email">
-          <button type="button" class="btn btn-dark rounded-2 mb-0">Subscribe!</button>
+      </p>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <form class="bg-body shadow rounded-2 p-2">
+            <div class="input-group ">
+              <input class="form-control border-0 me-1" type="email" placeholder="Enter your email">
+              <button type="button" class="btn btn-dark rounded-2 mb-0">Subscribe!</button>
+            </div>
+          </form>
         </div>
-      </form>
-    </div>
+      </div>
     </div>
   </section>
 
@@ -319,17 +358,18 @@
 
     <div class="container ">
       <div class="row mb-3 mb-sm-4 ">
-        <div class="col-12 text-center">
+        <div class="col-12 text-center mb-4">
           <h2 class="mb-0 fw-bold h1 police-poppins">Top Categories</h2>
         </div>
         <div class="row">
-          <div class="col-lg-3">
-            <div class="row g-4 g-xl-5 ligne">
-              <div class="col-sm-6 col-lg-4 col-xl-3">
+          <div class="col-lg-3 ">
+            <div class="row g-4 g-xl-5">
+              <div class="col-sm-6 col-lg-4 col-xl-3 ">
                 <div class="row g-2 g-md-3 align-items-center position-relative">
                   <div class="col-md-6">
                     <img src="./images/20.jpg" class="rounded-3 " width="100" alt="images">
                   </div>
+
                   <!--------contenu-------------->
                   <div class="col-md-6">
                     <div class="p-2 p-md-0">
@@ -379,6 +419,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-lg-3">
             <div class="row g-4 g-xl-5">
               <div class="col-sm-6 col-lg-4 col-xl-3">
@@ -398,6 +439,7 @@
             </div>
           </div>
         </div>
+
       </div>
 
 
@@ -405,7 +447,7 @@
     </div>
   </section>
 
-  <section class="pt-0 pt-md-5">
+  <section class="pt-0 pt-md-5 mb-5">
 
     <div class="container ">
       <div class="row mb-3 mb-sm-4 ">
@@ -487,13 +529,18 @@
           </div>
         </div>
       </div>
-
-
     </div>
     </div>
   </section>
 
-
+<!-- Pied de page (Footer) -->
+<footer>
+  <div class="container text-center">
+      <p>&copy; 2024 voyages- Tous droits réservés.</p>
+      <p><a href="#" class="text-light">Politique de confidentialité</a> | <a href="#" class="text-light">Mentions
+              légales</a></p>
+  </div>
+</footer>
 
   <script src="./vendors/bootstrap/js/bootstrap.bundle.js"></script>
 </body>

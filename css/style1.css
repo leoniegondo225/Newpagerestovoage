@@ -22,6 +22,19 @@ body{
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
+.marge {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #717172;
+}
+
+.btn:hover{
+    background-color: #eaebf8;
+    color: #5327f3;
+
+}
+
 .police-poppins {
     font-family: poppins,sans-serif;
 }
